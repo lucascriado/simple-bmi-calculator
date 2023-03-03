@@ -1,4 +1,17 @@
 alert("Bem-Vindo a está página!");
 
-document.write("Olá Mundo, isso é um teste,<br> A soma da sua idade é : " + (10 + 10) + "<br>")
-document.write("Estamos do ano de: " + (2000+23) + "<br>")
+var currentYear = 2023
+
+document.write("João tem " + (currentYear - 1977) + " anos.")
+var nameFlavio = "Flávio";
+document.write("<br>") + nameFlavio + (" tem " + (currentYear - 1965) + " anos.")
+document.write("<br>Paulo tem " + (currentYear - 1981) + " anos.")
+
+var ageJoao = 46;
+var ageRobson = 58;
+var agePaulo = 61;
+
+var avg = (ageJoao + agePaulo + ageJoao)/3
+
+document.write('<br>A média das idades é ' + avg)
+
