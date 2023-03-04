@@ -1,17 +1,26 @@
 alert("Bem-Vindo a está página!");
 
-var currentYear = 2023
+function jmpLine() {
+    document.write("<br>");
+}
 
-document.write("João tem " + (currentYear - 1977) + " anos.")
+function showText(text) {
+    document.write(text)
+    jmpLine();
+}
+
+var currentYear = 2023
 var nameFlavio = "Flávio";
-document.write("<br>") + nameFlavio + (" tem " + (currentYear - 1965) + " anos.")
-document.write("<br>Paulo tem " + (currentYear - 1981) + " anos.")
+
+showText("João tem " + (currentYear - 1977) + " anos.")
+showText(nameFlavio + " tem " + (currentYear - 1980) + " anos.")
+showText("Paulo tem " + (currentYear - 1981) + " anos.")
 
 var ageJoao = 46;
-var ageRobson = 58;
-var agePaulo = 61;
+var ageRobson = 43;
+var agePaulo = 42;
 
 var avg = (ageJoao + agePaulo + ageJoao)/3
 
-document.write('<br>A média das idades é ' + avg)
+showText('A média das idades é ' + Math.round(avg))
 
