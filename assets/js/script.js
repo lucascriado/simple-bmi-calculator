@@ -1,26 +1,22 @@
 alert("Bem-Vindo a está página!");
 
-function jmpLine() {
+function jmpLine () {
+    document.write("<br>");
     document.write("<br>");
 }
 
-function showText(text) {
-    document.write(text)
+function showText(textIn){
+    document.write(textIn)
     jmpLine();
+}   
+
+function calcImc(height, weight){
+    return weight / ( height * height )
 }
 
-var currentYear = 2023
-var nameFlavio = "Flávio";
+var userName = prompt("Informe seu nome.")
+var weightUser = prompt(userName + ", informe seu peso.")
+var heightUser = prompt(userName + ", informe sua altura.")
+var fsImc = calcImc(heightUser, weightUser);
 
-showText("João tem " + (currentYear - 1977) + " anos.")
-showText(nameFlavio + " tem " + (currentYear - 1980) + " anos.")
-showText("Paulo tem " + (currentYear - 1981) + " anos.")
-
-var ageJoao = 46;
-var ageRobson = 43;
-var agePaulo = 42;
-
-var avg = (ageJoao + agePaulo + ageJoao)/3
-
-showText('A média das idades é ' + Math.round(avg))
-
+showText( userName + ", o seu IMC calculado é : " + fsImc + ".")
