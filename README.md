@@ -1,2 +1,2 @@
-# static-page-with-js
-💻 An HTML/CSS page to study JS
+# calculating-imc-with-javascript
+💻 An HTML/CSS project to study JS
