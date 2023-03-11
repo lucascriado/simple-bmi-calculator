@@ -1,2 +1,2 @@
 # Simle BMI Calculator.
-💻 Page to calculate IMC in a simple way, using fundamentals from Alura's JS course.
+💻 Simple page, to calculate the BMI done within the Alura course.
