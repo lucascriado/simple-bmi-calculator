@@ -1,2 +1,2 @@
 # Simple BMI Calculator.
-💻 Simple page, to calculate the BMI done within the Alura course.
+💻 Project made to save some basic knowledge of JavaScript and also to see my evolution of JavaScript over time, studied in Alura's course.
